@@ -12,10 +12,11 @@ const app = express();
 
 // Allow requests from your frontend's domain
 const corsOptions = {
-  origin: 'https://aarambh2k25.vercel.app/', // Corrected URL (no trailing slash)
+  origin: 'https://aarambh2k25.vercel.app', // or whatever the correct frontend URL is
   methods: 'GET, POST, PUT, DELETE',
   allowedHeaders: 'Content-Type, Authorization',
 };
+
 
 app.use(cors(corsOptions)); // Keep this CORS configuration
 // Middlewares
