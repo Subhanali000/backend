@@ -12,7 +12,7 @@ const app = express();
 
 // Allow requests from your frontend's domain
 const corsOptions = {
-  origin: 'http://localhost:3000', // Corrected URL (no trailing slash)
+  origin: 'https://aarambh2k25.vercel.app/', // Corrected URL (no trailing slash)
   methods: 'GET, POST, PUT, DELETE',
   allowedHeaders: 'Content-Type, Authorization',
 };
